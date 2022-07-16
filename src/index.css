@@ -1,3 +1,14 @@
+/* TAILWIND */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* CONFIG GERAL */
+body {
+    height: 100vh;
+    background-image: url("./components/images/background.svg");
+    background-size: cover;
+    background-position: center;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+}
