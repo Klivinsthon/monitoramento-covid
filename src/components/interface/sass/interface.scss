@@ -1,17 +1,7 @@
+/* IMPORTS */
 @import "./variaveis.scss";
 
-.painel-geral {
-    padding: 1rem 5px;
-    background: rgba(255, 255, 255, 0.1);
-    -moz-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    box-shadow: 0 5px 15px 0 rgba(31, 38, 135, 0.2);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-    border-radius: 15px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-}
-
+/* CONFIG CABEÇALHO */
 header {
     height: 20vh;
     padding: 20px 20px 0 20px;
@@ -31,4 +21,17 @@ header {
     color: $cor-branco;
     font-weight: bold;
     text-align: right;
+}
+
+/* CONFIG PAINEL GERAL */
+.painel-geral {
+    padding: 1rem 5px;
+    background: rgba(255, 255, 255, 0.1);
+    -moz-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    box-shadow: 0 5px 15px 0 rgba(31, 38, 135, 0.2);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
