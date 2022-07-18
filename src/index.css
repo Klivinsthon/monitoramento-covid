@@ -3,8 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 /* CONFIG GERAL */
 body {
+    font-family: "Inter", sans-serif;
     height: 100vh;
     background-image: url("./components/images/background.svg");
     background-size: cover;
