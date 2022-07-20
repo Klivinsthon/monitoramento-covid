@@ -1,15 +1,17 @@
 @charset "UTF-8";
 /* IMPORTS */
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 /* CORES */
 /* TEXTOS */
 @media (max-width: 639px) {
   .titulo {
-    background-position: 96% 80%;
+    background-position: 96% 70%;
   }
 }
 @media (min-width: 640px) {
   .titulo {
-    background-position: 87.5% 77%;
+    background-position: 87.9% 79%;
   }
 }
 @media (min-width: 768px) {
@@ -17,16 +19,26 @@
     background-position: 87.5% 89%;
   }
 }
+/* CONFIG GERAL */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
 /* CONFIG CABEÇALHO */
 header {
-  height: 20vh;
+  height: 90px;
   padding: 20px 20px 0 20px;
   margin-bottom: 30px;
 }
 
 .logo {
   padding: 20px;
-  line-height: 2em;
+  line-height: 32px;
   display: inline-block;
   text-indent: -9999px;
   background: url("../../images/logo.svg") no-repeat;
@@ -44,20 +56,21 @@ header {
 .painel-geral {
   padding: 12px 5px;
   background: rgba(255, 255, 255, 0.1);
-  -moz-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  -moz-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   box-shadow: 0 5px 15px 0 rgba(31, 38, 135, 0.2);
-  backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
-.painel-geral div {
+
+.bloco-infos {
   padding: 8px;
   border-radius: 20px;
-  background: linear-gradient(180deg, #f4f3f3 30.36%, rgba(255, 255, 255, 0.18) 118.3%);
+  background: linear-gradient(180deg, #f4f3f3 60.36%, rgba(255, 255, 255, 0.18) 110%);
   border: none;
 }
 
@@ -65,13 +78,25 @@ header {
   text-align: center;
   font-weight: bold;
   background-repeat: no-repeat;
-  background-size: 4%;
+  background-size: 7%;
+  margin-bottom: 5px;
+}
+
+.infos-detalhadas {
+  width: 80%;
+  margin: 0 auto;
 }
 
 /* CONFIG BLOCO CASOS CONFIRMADOS */
-.confirmados {
+.titulo-confirmados {
   color: #6BCBF8;
   background-image: url("../../images/ret-azul.svg");
+}
+
+/* CONFIG BLOCO CASOS CONFIRMADOS */
+.titulo-obitos {
+  color: #61C55E;
+  background-image: url("../../images/ret-verde.svg");
 }
 
 /*# sourceMappingURL=interface.css.map */
