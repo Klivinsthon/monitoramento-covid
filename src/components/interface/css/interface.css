@@ -2,6 +2,21 @@
 /* IMPORTS */
 /* CORES */
 /* TEXTOS */
+@media (max-width: 639px) {
+  .titulo {
+    background-position: 96% 80%;
+  }
+}
+@media (min-width: 640px) {
+  .titulo {
+    background-position: 87.5% 77%;
+  }
+}
+@media (min-width: 768px) {
+  .titulo {
+    background-position: 87.5% 89%;
+  }
+}
 /* CONFIG CABEÇALHO */
 header {
   height: 20vh;
@@ -34,14 +49,29 @@ header {
   box-shadow: 0 5px 15px 0 rgba(31, 38, 135, 0.2);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 .painel-geral div {
-  border-radius: 15px;
-  background: linear-gradient(180deg, #f4f3f3 30.36%, rgba(255, 255, 255, 0.1) 118.3%);
+  padding: 8px;
+  border-radius: 20px;
+  background: linear-gradient(180deg, #f4f3f3 30.36%, rgba(255, 255, 255, 0.18) 118.3%);
+  border: none;
+}
+
+.titulo {
+  text-align: center;
+  font-weight: bold;
+  background-repeat: no-repeat;
+  background-size: 4%;
+}
+
+/* CONFIG BLOCO CASOS CONFIRMADOS */
+.confirmados {
+  color: #6BCBF8;
+  background-image: url("../../images/ret-azul.svg");
 }
 
 /*# sourceMappingURL=interface.css.map */
