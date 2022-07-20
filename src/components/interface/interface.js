@@ -36,7 +36,7 @@ function Interface() {
                                     shrink-0
                                     w-60 sm:w-72 md:w-80">
                         <h1 className="titulo titulo-obitos
-                                       text-lg md:text-xl">CASOS CONFIRMADOS</h1>
+                                       text-lg md:text-xl">ÓBITOS CONFIRMADOS</h1>
                         <div className="infos-detalhadas
                                         sm:pl-4">
                             <div className="text-sm"><span>Confirmados</span></div>
