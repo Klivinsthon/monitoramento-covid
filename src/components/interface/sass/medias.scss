@@ -1,17 +1,29 @@
 @media(max-width: 639px) {
     .titulo {
-        background-position: 96% 70%;
+        background-position: 95.5% 70%;
+    }
+    
+    .titulo-obitos {
+        background-position: 97% 82%;
     }
 }
 
 @media(min-width: 640px) {
     .titulo {
-        background-position: 87.9% 79%;
+        background-position: 87.5% 79%;
+    }
+
+    .titulo-obitos {
+        background-position: 88% 80%;
     }
 }
 
 @media(min-width: 768px) {
     .titulo {
         background-position: 87.5% 89%;
+    }
+
+    .titulo-obitos {
+        background-position: 88% 89%;
     }
 }

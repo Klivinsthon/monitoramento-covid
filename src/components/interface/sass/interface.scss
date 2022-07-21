@@ -72,14 +72,31 @@ header {
     margin: 0 auto;
 }
 
-/* CONFIG BLOCO CASOS CONFIRMADOS */
+/* CONFIG BLOCO CASOS */
 .titulo-confirmados {
     color: $azul;
     background-image: url("../../images/ret-azul.svg");
 }
 
-/* CONFIG BLOCO CASOS CONFIRMADOS */
+/* CONFIG BLOCO ÓBITOS */
 .titulo-obitos {
     color: $verde;
     background-image: url("../../images/ret-verde.svg");
+}
+
+/* CONFIG BLOCO RECUPERADOS */
+.sem-bg {
+    background: none;
+}
+
+.info-recuperados {
+    padding: 8px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #f4f3f3 60.36%, rgba(255, 255, 255, 0.18) 110%);
+    border: none;
+}
+
+.titulo-recuperados {
+    color: $azul-escuro;
+    background-image: url("../../images/ret-azul-escuro.svg");
 }
